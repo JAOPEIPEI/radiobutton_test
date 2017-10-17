@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/btn_0_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/enjoyment"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_1_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/hope"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_2_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/pride"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/btn_3_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/relief"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_4_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/angry"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_5_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/anxiety"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_6_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/shame"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_7_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/frustration"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_8_img"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/boredom"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

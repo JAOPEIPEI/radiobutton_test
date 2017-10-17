@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.22">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.22"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <RadioButton
+                    android:id="@+id/btn_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="自豪(pride)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="希望(hope)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="挫折(frustration)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/btn_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="無聊(boredom)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="羞恥(shame)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="生氣(angry)"
+                    android:textColor="@android:color/black"
+
+                    android:textSize="30sp"/>
+
+
+                <RadioButton
+                    android:id="@+id/btn_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="放鬆(relief)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="焦慮(anxiety)"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+                <RadioButton
+                    android:id="@+id/btn_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/radiobutton_emotion"
+                    android:button="@null"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="愉快(enjoyment)"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
